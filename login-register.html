@@ -1,0 +1,157 @@
+<!--
+	HTML Template by iKotti
+	Github : https://github.com/iKotti
+	Linkedln : https://www.linkedin.com/in/ilker-yildiz/
+-->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<!-- Meta Tag -->
+	<meta charset="utf-8">
+	<meta name='copyright' content=''>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+	<!-- Title Tag  -->
+	<title>E-Commerce Site / Login & Register</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Web Font -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- StyleSheet -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="css/themify-icons.css">
+
+	<!-- Eshop StyleSheet -->
+	<link rel="stylesheet" href="css/membership.css">
+
+
+</head>
+
+<body>
+	<div class="d-flex justify-content-center mt-4">
+		<a href="index.html"><img src="images/logo.png"></a>
+	</div>
+
+
+	<section class="loginWrapper">
+
+		<ul class="tabs">
+			<li class="active"><i class="fa fa-user"></i> Giriş Yap</li>
+			<li><i class="fa fa-user-plus"></i> Kayıt Ol</li>
+		</ul>
+
+		<ul class="tab__content">
+
+			<li class="active">
+				<div class="content__wrapper">
+					<form method="POST" action="">
+						<input type="email" name="email" placeholder="Email" class="error">
+						<p class="text-left ml-35"><i class="fa fa-exclamation"></i> Email boş bırakılamaz.</p>
+
+						<input type="password" name="password" placeholder="Parola">
+						<p class="text-left ml-25">&nbsp;</p>
+
+						<a href="#" class="text-left" data-toggle="modal" data-target="#forget-password">Şifremi
+							Unuttum</a>
+
+						<button type="submit"> Giriş Yap</button>
+					</form>
+				</div>
+			</li>
+
+			<li>
+				<div class="content__wrapper">
+					<form method="POST" action="">
+						<input type="text" name="name" placeholder="Ad">
+						<p class="text-left ml-25">&nbsp;</p>
+
+						<input type="text" name="name" placeholder="Soyad">
+						<p class="text-left ml-25">&nbsp;</p>
+
+						<input type="email" name="email" placeholder="Email">
+						<p class="text-left ml-25">&nbsp;</p>
+
+						<input type="password" name="password" placeholder="Parola">
+						<p class="text-left ml-25">&nbsp;</p>
+						<div class="text-left ml-25">
+							<h6> <i class="ti-arrow-circle-right"></i> En az 1 büyük harf içermelidir.</h6>
+							<h6> <i class="ti-arrow-circle-right"></i> En az 1 küçük harf içermelidir.</h6>
+							<h6> <i class="ti-arrow-circle-right"></i> En az 1 rakam içermelidir.</h6>
+							<h6> <i class="ti-arrow-circle-right"></i> En az 1 özel karakter içermelidir.</h6>
+							<h6> <i class="ti-arrow-circle-right"></i> Kişisel bilgilerinize benzer olamaz.</h6>
+						</div>
+
+						<input type="password" name="password" placeholder="Parolayı Doğrula">
+						<p class="text-left ml-25">&nbsp;</p>
+						<button type="submit"> Kayıt Ol</button>
+					</form>
+				</div>
+			</li>
+
+		</ul>
+	</section>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="forget-password" tabindex="-1" role="dialog" aria-labelledby="forget-password"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-zoom" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-12 col-xs-12">
+							<h4 class="font-weight-bold float-left">Şifremi Unuttum</h4>
+							<a class="modal-close-button float-right" data-dismiss="modal"> <i
+								class="fa fa-close"></i></a>	
+						</div>
+					</div>
+					<hr>
+					<div class="text-center">
+						<p>Size yeni parola oluşturmak için sistemde kayıtlı email adresinize ihtiyacımız var:</p>
+						<form>
+							<input class="w-100" type="text" placeholder="Email">
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer d-flex justify-content-center">
+					<button type="button" class="btn btn-send font-weight-bold" data-dismiss="modal">Gönder</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="logginFormFooter">
+		&copy; 2021 - PencilPie Development <a href="#">pencilpie.com</a>
+	</div>
+
+
+
+	<!-- Jquery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+
+
+
+
+	<!--Members JS-->
+	<script src="js/members.js"></script>
+</body>
+
+</html>

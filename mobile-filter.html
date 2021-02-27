@@ -1,0 +1,567 @@
+<!--
+	HTML Template by iKotti
+	Github : https://github.com/iKotti
+	Linkedln : https://www.linkedin.com/in/ilker-yildiz/
+-->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<!-- Meta Tag -->
+	<meta charset="utf-8">
+	<meta name='copyright' content=''>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+	<!-- Title Tag  -->
+	<title>E-Commerce Site / Mobile Filter</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Web Font -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- StyleSheet -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Fancybox -->
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<!-- Themify Icons -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Jquery Ui -->
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="css/niceselect.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Flex Slider CSS -->
+	<link rel="stylesheet" href="css/flex-slider.min.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl-carousel.css">
+	<!-- Slicknav -->
+	<link rel="stylesheet" href="css/slicknav.min.css">
+
+	<!-- Eshop StyleSheet -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+
+
+</head>
+
+<body class="js d-block d-md-block d-lg-none">
+
+	<!-- Header -->
+	<header class="header shop">
+		<!--Mobile Navbar-->
+		<div class="col-xs-12 mobile-navbar">
+
+			<div class="navbar-header">
+				<a data-trigger="#navbar_main_left" class="d-lg-none mobile-leftbar-button"> <i class="ti-menu"></i>
+				</a>
+				<a data-trigger="#navbar_main_top" class="d-lg-none mobile-search-button"> <i class="ti-search"></i>
+				</a>
+				<a data-trigger="#navbar_main_right" class="mobile-rightbar-button"> <i class="fa fa-user-circle-o"></i>
+				</a>
+				<a href="cart.html" class="mobile-rightbar-button"> <i class="ti-shopping-cart"></i></a>
+				<div class="d-flex justify-content-center">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+
+			</div>
+
+			<nav id="navbar_main_left" class="mobile-offcanvas-left navbar navbar-expand-lg bg-white">
+				<div class="offcanvas-header">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">KATEGORİLER</h5>
+				</div>
+				<ul class="navbar-nav mobile-categories w-100 mt-4">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/cat.svg"> Kedi
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Kedi Maması</a></li>
+							<li><a class="dropdown-item" href="#"> Kedi Kumu </a></li>
+							<li><a class="dropdown-item" href="#"> Kedi Oyuncakları </a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/dog.svg"> Köpek
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Köpek Maması</a></li>
+							<li><a class="dropdown-item" href="#"> Köpek Kumu </a></li>
+							<li><a class="dropdown-item" href="#"> Köpek Oyuncakları </a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/bird.svg"> Kuş
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Kuş Yemi</a></li>
+							<li><a class="dropdown-item" href="#"> Kuş Kafesi </a></li>
+							<li><a class="dropdown-item" href="#"> Kuş Oyuncakları </a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/bird.svg"> Sürüngen
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Kaplumbağa Yemleri</a></li>
+							<li><a class="dropdown-item" href="#"> Sürüngen Ürünleri </a></li>
+							<li><a class="dropdown-item" href="#"> Sürüngen Aksesuarları </a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<nav id="navbar_main_right" class="mobile-offcanvas-right navbar navbar-expand-lg bg-white">
+				<div class="offcanvas-header">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">HESAP</h5>
+				</div>
+				<ul class="navbar-nav mobile-account w-100 mt-4">
+					<li class="nav-item"><a class="nav-link" href="login-register.html"> <i class="ti-power-off"></i>
+							Giriş Yap </a> </li>
+					<li class="nav-item"><a class="nav-link" href="login-register.html"><i class="ti-user"></i> Kayıt Ol
+						</a></li>
+						<li class="nav-item"><a class="nav-link" href="./profile-orders.html"><i class="fa fa-shopping-bag"></i> Siparişlerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-wishlist.html"><i class="ti-heart"></i> Beğendiklerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-orders.html"><i class="ti-map-alt"></i> Adreslerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-account-settings.html"><i class="ti-settings"></i> Hesap Bilgileri </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-change-password.html"><i class="ti-lock"></i> Şifre Değiştir </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-comments.html"><i class="fa fa-star"></i> Değerlendirmelerim </a></li>
+					</li>
+				</ul>
+			</nav>
+
+			<nav id="navbar_main_top" class="mobile-offcanvas-top navbar navbar-expand-lg navbar-dark bg-white">
+				<div class="offcanvas-header mb-4">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">ARAMA YAP</h5>
+				</div>
+
+				<div class="mt-4">
+					<div class="input-group mb-4 w-100 mt-4">
+						<input type="search" placeholder="Dilediğiniz ürünü arayın..." aria-describedby="button-addon5"
+							class="form-control">
+						<div class="input-group-append">
+							<button id="button-addon5" type="submit" class="btn btn-primary border-0"><i
+									class="fa fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+
+			</nav>
+
+		</div>
+		<!--End Mobile Navbar-->
+
+		<!-- End Topbar -->
+		<div class="middle-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-12 d-none d-xl-block d-lg-block">
+						<!-- Logo -->
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+						</div>
+						<!--/ End Logo -->
+						<!-- Search Form -->
+						<div class="search-top">
+							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
+							<!-- Search Form -->
+							<div class="search-top">
+								<form class="search-form">
+									<input type="text" placeholder="Search here..." name="search">
+									<button value="search" type="submit"><i class="ti-search"></i></button>
+								</form>
+							</div>
+							<!--/ End Search Form -->
+						</div>
+						<!--/ End Search Form -->
+					</div>
+					<div class="col-lg-8 col-md-7 col-12">
+						<div class="search-bar-top">
+							<div class="search-bar">
+								<form>
+									<input name="search" placeholder="Dilediğiniz ürünü arayın..." type="search">
+									<button class="btnn"><i class="ti-search"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-12">
+						<div class="right-bar">
+							<!-- Search Form -->
+							<div class="sinlge-bar">
+								<a href="./profile-wishlist.html" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar">
+								<a href="./profile-orders.html" class="single-icon"><i class="fa fa-user-circle-o"
+										aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar shopping">
+								<a href="#" class="single-icon"><i class="ti-shopping-cart"></i> <span
+										class="total-count">2</span></a>
+								<!-- Shopping Item -->
+								<div class="shopping-item">
+									<div class="dropdown-cart-header">
+										<span>2 Ürün</span>
+
+									</div>
+									<div class="brands">
+										<ul class="shopping-list">
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food1.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Köpek Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">50TL</span></p>
+											</li>
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food2.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Kedi Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">30TL</span></p>
+											</li>
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food3.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Kedi Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">30TL</span></p>
+											</li>
+										</ul>
+									</div>
+									<div class="bottom">
+										<div class="total">
+											<span>Toplam</span>
+											<span class="total-amount">110 TL</span>
+										</div>
+										<a href="./cart.html" class="btn ">SEPETE GİT</a>
+									</div>
+								</div>
+								<!--/ End Shopping Item -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Inner -->
+		<div class="header-inner">
+			<div class="container">
+				<div class="cat-nav-head">
+					<div class="row">
+						<div class="col-lg-12 col-12">
+							<div class="menu-area ">
+								<!-- Main Menu -->
+								<nav class="navbar navbar-expand-lg">
+									<div class="navbar-collapse">
+										<div class="nav-inner">
+											<ul class="nav main-menu menu navbar-nav">
+												<li><a href="#"><img src="images/svg/cat.svg">Kedi</a>
+													<ul class="dropdown">
+														<li><a href="#">Kedi Maması</a></li>
+														<li><a href="#">Kedi Kumu</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/dog.svg">Köpek</a></li>
+												<li><a href="#"><img src="images/svg/bird.svg">Kuş</a></li>
+												<li><a href="#"><img src="images/svg/fish.svg">Akvaryum</a></li>
+												<li><a href="#"><img src="images/svg/rabbit.svg">Kemirgen</a></li>
+												<li><a href="#"><img src="images/svg/tortoise.svg">Sürüngen
+
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+								<!--/ End Main Menu -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!--/ End Header -->
+
+	<!-- Product Style -->
+	<section class="shop mt-80">
+
+		<div class="container">
+			<button class="mobile-back-button" onclick="goBack()"><i class="fa fa-arrow-circle-left"></i>
+				<span></span></button>
+			<div class="row">
+				<div class="col-lg-3 col-md-12 col-12 ">
+					<div class="shop-sidebar">
+						<!-- Single Widget -->
+						<div class="single-widget category">
+							<h3 class="title">Kategoriler</h3>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/cat.svg">Kedi </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Kedi Mamaları </a></li>
+										<li><a href="#" data-abc="true">Kedi Kumu </a></li>
+										<li><a href="#" data-abc="true">Kedi Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Kedi Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Kedi Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/dog.svg">Köpek </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Köpek Mamaları </a></li>
+										<li><a href="#" data-abc="true">Köpek Kumu </a></li>
+										<li><a href="#" data-abc="true">Köpek Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Köpek Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Köpek Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/bird.svg">Kuş </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Kedi Mamaları </a></li>
+										<li><a href="#" data-abc="true">Kedi Kumu </a></li>
+										<li><a href="#" data-abc="true">Kedi Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Kedi Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Kedi Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/fish.svg">Akvaryum </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Akvaryum Yemleri</a></li>
+										<li><a href="#" data-abc="true">Akvaryum Kafesi </a></li>
+										<li><a href="#" data-abc="true">Akvaryum Gaga Taşları </a></li>
+										<li><a href="#" data-abc="true">Akvaryum Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/rabbit.svg">Kemirgen </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Kemirgen Mamaları </a></li>
+										<li><a href="#" data-abc="true">Kemirgen Kumu </a></li>
+										<li><a href="#" data-abc="true">Kemirgen Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Kemirgen Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Kemirgen Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a class="collapsible">
+									<p><i class="icon-control fa fa-chevron-down"></i><img
+											src="images/svg/shop/turtle.svg">Sürüngen </p>
+								</a>
+								<div class="filter_content">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Sürüngen Mamaları </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Kumu </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- ESKİ SİSTEM
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_reptile" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/turtle.svg">Sürüngen </p>
+								</a>
+								<div class="collapse" id="c_reptile">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Sürüngen Mamaları </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Kumu </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Kafesleri </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Tasmaları </a></li>
+										<li><a href="#" data-abc="true">Sürüngen Ödülleri</a></li>
+									</ul>
+								</div>
+							</div> -->
+
+
+						</div>
+						<!--/ End Single Widget -->
+						<!-- Shop By Price -->
+						<div class="single-widget range">
+							<h3 class="title">Fiyat Aralığı</h3>
+							<div class="price-filter">
+								<input type="number" name="price-min" id="price-min" placeholder="Min">
+								-
+								<input type="number" name="price-max" id="price-max" placeholder="Max">
+							</div>
+							<ul class="check-box-list">
+								<li>
+									<input name="price" id="1" value="0-50" type="checkbox"><label for="1">0 TL - 50
+										TL<span class="count">(0)</span></label>
+								</li>
+								<li>
+									<input name="price" id="2" value="50-150" type="checkbox"><label for="2">50 TL -
+										150 TL<span class="count">(0)</span></label>
+								</li>
+								<li>
+									<input name="price" id="3" value="150-300" type="checkbox"><label for="3">150 TL
+										- 300 TL<span class="count">(0)</span></label>
+								</li>
+								<li>
+									<input name="price" id="4" value="300+" type="checkbox"><label for="4">300
+										TL+<span class="count">(0)</span></label>
+								</li>
+							</ul>
+						</div>
+						<!--/ End Shop By Price -->
+
+						<!-- Shop Brand -->
+						<div class="single-widget range">
+							<h3 class="title">Markalar</h3>
+							<div class="brands">
+								<ul class="check-box-list">
+									<li>
+										<input name="news" id="11" type="checkbox"><label for="11">Advance</label>
+									</li>
+									<li>
+										<input name="news" id="12" type="checkbox"><label for="12">Alice</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--/ End Shop Brand -->
+
+						<!-- Shop Weight -->
+						<div class="single-widget range">
+							<h3 class="title">Paket Ağırlığı</h3>
+
+							<ul class="check-box-list">
+								<li>
+									<input name="news" id="4" type="checkbox"> 3Kg </span></label>
+								</li>
+								<li>
+									<input name="news" id="5" type="checkbox"> 5Kg </span></label>
+								</li>
+								<li>
+									<input name="news" id="6" type="checkbox"> 10Kg</span></label>
+								</li>
+								<li>
+									<input name="news" id="7" type="checkbox"> 15Kg </span></label>
+								</li>
+							</ul>
+						</div>
+						<!--/ End Weight -->
+						<div class="mt-80">
+
+						</div>
+						<!-- Shop Button -->
+						<button class="f-button btn btn-primary w-100 border-0">ÜRÜNLERİ GÖSTER</button>
+						<!--/ Shop Button -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Product Style  -->
+
+	<!-- Jquery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Color JS -->
+	<script src="js/colors.js"></script>
+	<!-- Slicknav JS -->
+	<script src="js/slicknav.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="js/owl-carousel.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="js/magnific-popup.js"></script>
+	<!-- Fancybox JS -->
+	<script src="js/facnybox.min.js"></script>
+	<!-- Waypoints JS -->
+	<script src="js/waypoints.min.js"></script>
+	<!-- Countdown JS -->
+	<script src="js/finalcountdown.min.js"></script>
+	<!-- Nice Select JS -->
+	<script src="js/nicesellect.js"></script>
+	<!-- Ytplayer JS -->
+	<script src="js/ytplayer.min.js"></script>
+	<!-- Flex Slider JS -->
+	<script src="js/flex-slider.js"></script>
+	<!-- ScrollUp JS -->
+	<script src="js/scrollup.js"></script>
+	<!-- Onepage Nav JS -->
+	<script src="js/onepage-nav.min.js"></script>
+	<!-- Easing JS -->
+	<script src="js/easing.js"></script>
+	<!-- Active JS -->
+	<script src="js/active.js"></script>
+
+
+	<!-- Navbar Mobile -->
+	<script src="js/navbar-mobile.js"></script>
+	<!-- Filter Category  -->
+	<script src="js/filter-category.js"></script>
+
+	<script>
+		function goBack() {
+			window.history.back();
+		}
+	</script>
+
+</body>
+
+</html>

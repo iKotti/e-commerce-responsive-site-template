@@ -1,0 +1,1262 @@
+<!--
+	HTML Template by iKotti
+	Github : https://github.com/iKotti
+	Linkedln : https://www.linkedin.com/in/ilker-yildiz/
+-->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<!-- Meta Tag -->
+	<meta name='copyright' content=''>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+	<!-- Title Tag  -->
+	<title>E-Commerce Site / Shop Grid</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<!-- Web Font -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- StyleSheet -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Fancybox -->
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<!-- Themify Icons -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Jquery Ui -->
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href="css/niceselect.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Flex Slider CSS -->
+	<link rel="stylesheet" href="css/flex-slider.min.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl-carousel.css">
+	<!-- Slicknav -->
+	<link rel="stylesheet" href="css/slicknav.min.css">
+
+	<!-- Eshop StyleSheet -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+
+
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header class="header shop">
+		<!-- Topbar -->
+		<div class="topbar d-none d-xl-block d-lg-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-12 col-12">
+						<!-- Top Left -->
+						<div class="top-left">
+							<ul class="list-main">
+								<li><i class="ti-headphone-alt"></i>(0312) 375 55 44</li>
+							</ul>
+						</div>
+						<!--/ End Top Left -->
+					</div>
+					<div class="col-lg-7 col-md-12 col-12">
+						<!-- Top Right -->
+						<div class="right-content">
+							<ul class="list-main">
+								<li><i class="ti-help-alt"></i><a href="#">Bize Ulaşın</a></li>
+								<li><i class="ti-user"></i> <a href="login-register.html">Kayıt Ol</a></li>
+								<li><i class="ti-power-off"></i><a href="login-register.html">Giriş Yap</a></li>
+							</ul>
+						</div>
+						<!-- End Top Right -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Mobile Navbar-->
+		<div class="col-xs-12 mobile-navbar">
+
+			<div class="navbar-header">
+				<a data-trigger="#navbar_main_left" class="mobile-leftbar-button"> <i class="ti-menu"></i>
+				</a>
+				<a data-trigger="#navbar_main_top" class="mobile-search-button"> <i class="ti-search"></i>
+				</a>
+				<a data-trigger="#navbar_main_right" class="mobile-rightbar-button"> <i class="fa fa-user-circle-o"></i>
+				</a>
+				<a href="cart.html" class="mobile-rightbar-button"> <i class="ti-shopping-cart"></i></a>
+				<div class="d-flex justify-content-center">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+
+			</div>
+
+			<nav id="navbar_main_left" class="mobile-offcanvas-left navbar navbar-expand-lg bg-white">
+				<div class="offcanvas-header">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">KATEGORİLER</h5>
+				</div>
+				<ul class="navbar-nav mobile-categories w-100 mt-4">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/cat.svg"> Kedi
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Kedi Maması</a></li>
+							<li><a class="dropdown-item" href="#"> Kedi Kumu </a></li>
+							<li><a class="dropdown-item" href="#"> Kedi Oyuncakları </a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/dog.svg"> Köpek
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Köpek Maması</a></li>
+							<li><a class="dropdown-item" href="#"> Köpek Kumu </a></li>
+							<li><a class="dropdown-item" href="#"> Köpek Oyuncakları </a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false"> <img
+								src="images/svg/shop/bird.svg"> Kuş
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#"> Kuş Yemi</a></li>
+							<li><a class="dropdown-item" href="#"> Kuş Kafesi </a></li>
+							<li><a class="dropdown-item" href="#"> Kuş Oyuncakları </a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<nav id="navbar_main_right" class="mobile-offcanvas-right navbar navbar-expand-lg bg-white">
+				<div class="offcanvas-header">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">HESAP</h5>
+				</div>
+				<ul class="navbar-nav mobile-account w-100 mt-4">
+					<li class="nav-item"><a class="nav-link" href="login-register.html"> <i class="ti-power-off"></i>
+							Giriş Yap </a> </li>
+					<li class="nav-item"><a class="nav-link" href="login-register.html"><i class="ti-user"></i> Kayıt Ol
+						</a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-orders.html"><i
+								class="fa fa-shopping-bag"></i> Siparişlerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-wishlist.html"><i class="ti-heart"></i>
+							Beğendiklerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-orders.html"><i class="ti-map-alt"></i>
+							Adreslerim </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-account-settings.html"><i
+								class="ti-settings"></i> Hesap Bilgileri </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-change-password.html"><i
+								class="ti-lock"></i> Şifre Değiştir </a></li>
+					<li class="nav-item"><a class="nav-link" href="./profile-comments.html"><i class="fa fa-star"></i>
+							Değerlendirmelerim </a></li>
+					</li>
+				</ul>
+			</nav>
+
+			<nav id="navbar_main_top" class="mobile-offcanvas-top navbar navbar-expand-lg navbar-dark bg-white">
+				<div class="offcanvas-header mb-4">
+					<button class="btn btn-secondary btn-close float-right border-0"> <i class="ti-close"></i> </button>
+					<h5 class="py-2">ARAMA YAP</h5>
+				</div>
+
+				<div class="mt-4">
+					<div class="input-group mb-4 w-100 mt-4">
+						<input type="search" placeholder="Dilediğiniz ürünü arayın..." aria-describedby="button-addon5"
+							class="form-control">
+						<div class="input-group-append">
+							<button id="button-addon5" type="submit" class="btn btn-primary border-0"><i
+									class="fa fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+
+			</nav>
+
+		</div>
+		<!--End Mobile Navbar-->
+
+		<!--Mobile Filter-->
+		<div class="container d-xl-none">
+			<div class="mobile-filter">
+				<div class="row">
+					<div class="col filter d-flex justify-content-center">
+						<a href="mobile-filter.html"><i class="ti-filter"></i> Filtrele</a>
+					</div>
+
+					<div class="col sort d-flex justify-content-center">
+						<a data-toggle="modal" data-target="#sort">
+							<i class="ti-exchange-vertical"></i>
+							Sırala
+						</a>
+
+						<div class="modal fade" id="sort" tabindex="-1" role="dialog" aria-labelledby="sort"
+							aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered modal-dialog-zoom" role="document">
+								<div class="modal-content">
+									<div class="row">
+										<div class="col-lg-12 col-xs-12">
+											<h4 class="font-weight-bold float-left">Sırala
+											</h4>
+											<a class="modal-close-button float-right" data-dismiss="modal"> <i
+													class="fa fa-close"></i></a>
+										</div>
+									</div>
+									<hr class="float-left">
+
+									<form class="form-control">
+										<div class="p-2 rounded checkbox-form ">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-1"> <label class="form-check-label"
+													for="flexCheckDefault-1">Editörün
+													Seçimi </label> </div>
+										</div>
+										<div class="p-2 rounded checkbox-form">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-2"> <label class="form-check-label"
+													for="flexCheckDefault-2">Fiyata Göre
+													Artan </label> </div>
+										</div>
+										<div class="p-2 rounded checkbox-form">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-3"> <label class="form-check-label"
+													for="flexCheckDefault-3">Fiyata Göre
+													Azalan </label> </div>
+										</div>
+										<div class="p-2 rounded checkbox-form">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-4"> <label class="form-check-label"
+													for="flexCheckDefault-4">En
+													Yeniler</label> </div>
+										</div>
+										<div class="p-2 rounded checkbox-form">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-5"> <label class="form-check-label"
+													for="flexCheckDefault-5">Yorum
+													Sayısı</label> </div>
+										</div>
+										<div class="p-2 rounded checkbox-form">
+											<div class="form-check"> <input class="form-check-input" type="radio"
+													value="" id="flexCheckDefault-6"> <label class="form-check-label"
+													for="flexCheckDefault-6">Ürün Puanı
+												</label> </div>
+										</div>
+
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Mobile Filter-->
+
+		<!-- End Topbar -->
+		<div class="middle-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-12 d-none d-xl-block d-lg-block">
+						<!-- Logo -->
+						<div class="logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+						</div>
+						<!--/ End Logo -->
+						<!-- Search Form -->
+						<div class="search-top">
+							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
+							<!-- Search Form -->
+							<div class="search-top">
+								<form class="search-form">
+									<input type="text" placeholder="Search here..." name="search">
+									<button value="search" type="submit"><i class="ti-search"></i></button>
+								</form>
+							</div>
+							<!--/ End Search Form -->
+						</div>
+						<!--/ End Search Form -->
+					</div>
+					<div class="col-lg-8 col-md-7 col-12">
+						<div class="search-bar-top">
+							<div class="search-bar">
+								<form>
+									<input name="search" placeholder="Dilediğiniz ürünü arayın..." type="search">
+									<button class="btnn"><i class="ti-search"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-12">
+						<div class="right-bar">
+							<!-- Search Form -->
+							<div class="sinlge-bar">
+								<a href="./profile-wishlist.html" class="single-icon"><i class="fa fa-heart-o"
+										aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar">
+								<a href="./profile-orders.html" class="single-icon"><i class="fa fa-user-circle-o"
+										aria-hidden="true"></i></a>
+							</div>
+							<div class="sinlge-bar shopping">
+								<a href="#" class="single-icon"><i class="ti-shopping-cart"></i> <span
+										class="total-count">2</span></a>
+								<!-- Shopping Item -->
+								<div class="shopping-item">
+									<div class="dropdown-cart-header">
+										<span>2 Ürün</span>
+
+									</div>
+									<div class="brands">
+										<ul class="shopping-list">
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food1.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Köpek Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">50TL</span></p>
+											</li>
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food2.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Kedi Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">30TL</span></p>
+											</li>
+											<li>
+												<a href="#" class="remove" title="Sepetten Sil"><i
+														class="fa fa-remove"></i></a>
+												<a class="cart-img" href="#"><img src="images/food/food3.jpeg"
+														alt="#"></a>
+												<h4><a href="#">Kedi Maması</a></h4>
+												<p class="quantity">1x - <span class="amount">30TL</span></p>
+											</li>
+										</ul>
+									</div>
+									<div class="bottom">
+										<div class="total">
+											<span>Toplam</span>
+											<span class="total-amount">110 TL</span>
+										</div>
+										<a href="./cart.html" class="btn ">SEPETE GİT</a>
+									</div>
+								</div>
+								<!--/ End Shopping Item -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Inner -->
+		<div class="header-inner">
+			<div class="container">
+				<div class="cat-nav-head">
+					<div class="row">
+						<div class="col-lg-12 col-12">
+							<div class="menu-area ">
+								<!-- Main Menu -->
+								<nav class="navbar navbar-expand-lg">
+									<div class="navbar-collapse">
+										<div class="nav-inner">
+											<ul class="nav main-menu menu navbar-nav">
+												<li><a href="#"><img src="images/svg/cat.svg">Kedi</a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Kedi Maması</a></li>
+														<li><a href="/shop-grid.html">Kedi Kumu</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/dog.svg">Köpek</a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Köpek Maması</a></li>
+														<li><a href="/shop-grid.html">Köpek Ödülleri</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/bird.svg">Kuş</a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Kuş Yemi</a></li>
+														<li><a href="/shop-grid.html">Kuş Kafesi</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/fish.svg">Akvaryum</a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Akvaryum Aletleri</a></li>
+														<li><a href="/shop-grid.html">Akvaryum Ürünleri</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/rabbit.svg">Kemirgen</a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Tavşan Ödülleri</a></li>
+														<li><a href="/shop-grid.html">Tavşan Talaşları</a></li>
+													</ul>
+												</li>
+												<li><a href="#"><img src="images/svg/tortoise.svg">Sürüngen </a>
+													<ul class="dropdown">
+														<li><a href="/shop-grid.html">Sürüngen Yemleri</a></li>
+														<li><a href="/shop-grid.html">Sürüngen Ürünleri</a></li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+								<!--/ End Main Menu -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!--/ End Header -->
+	<!-- Breadcrumbs -->
+	<div class="breadcrumbs d-none d-xl-block d-lg-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="bread-inner">
+						<ul class="bread-list">
+							<a href="index.html"><i class="ti-home"></i></a>
+							<li><i class="ti-arrow-right"></i> </li>
+							<li><a href="index1.html">Kedi<i class="ti-arrow-right"></i></a></li>
+							<li class="active"><a href="blog-single.html">Kedi Mamaları</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Breadcrumbs -->
+
+	<!-- Product Style -->
+	<section class="product-area shop-sidebar shop">
+		<div class="container">
+			<div class="row">
+				<!--Left Bar-->
+				<div class="col-lg-3 col-md-4 col-12 d-none d-xl-block d-lg-block">
+					<div class="shop-sidebar">
+						<!-- Single Widget -->
+						<div class="single-widget category">
+							<h3 class="title">Kategoriler</h3>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_cat" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/cat.svg">Kedi</p>
+								</a>
+								<div class="collapse" id="c_cat">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Kedi Maması</a></li>
+										<li><a href="#" data-abc="true">Kedi Kumu</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_dog" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/dog.svg">Köpek</p>
+								</a>
+								<div class="collapse" id="c_dog">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Köpek Maması</a></li>
+										<li><a href="#" data-abc="true">Köpek Ödülleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_bird" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/bird.svg">Kuş</p>
+								</a>
+								<div class="collapse" id="c_bird">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Kuş Yemi</a></li>
+										<li><a href="#" data-abc="true">Kuş Kafesi</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_aquarium" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/fish.svg">Akvaryum</p>
+								</a>
+								<div class="collapse" id="c_aquarium">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Akvaryum Aletleri</a></li>
+										<li><a href="#" data-abc="true">Akvaryum Ürünleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_rodent" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/rabbit.svg">Kemirgen </p>
+								</a>
+								<div class="collapse" id="c_rodent">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Tavşan Ödülleri</a></li>
+										<li><a href="#" data-abc="true">Tavşan Talaşları</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="mt-2">
+								<a href="#" data-toggle="collapse" data-target="#c_rodent" data-abc="true"
+									aria-expanded="false" class="collapsed"> <i
+										class="icon-control fa fa-chevron-down"></i>
+									<p class="text-dark"><img src="images/svg/shop/rabbit.svg">Sürüngen </p>
+								</a>
+								<div class="collapse" id="c_rodent">
+									<ul class="list-menu">
+										<li><a href="#" data-abc="true">Sürüngen Yemleri</a></li>
+										<li><a href="#" data-abc="true">Sürüngen Ürünleri</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+						</div>
+						<!--/ End Single Widget -->
+						<!-- Shop By Price -->
+						<div class="single-widget range">
+							<h3 class="title">Fiyat Aralığı</h3>
+							<div class="price-filter">
+								<input type="number" name="price-min" id="price-min" placeholder="Min">
+								-
+								<input type="number" name="price-max" id="price-max" placeholder="Max">
+							</div>
+							<ul class="check-box-list">
+								<li>
+									<input name="news" id="1" type="checkbox"><label for="1">20 TL - 50 TL<span
+											class="count">(3)</label>
+								</li>
+								<li>
+									<input name="news" id="2" type="checkbox"><label for="2">50 TL - 100 TL<span
+											class="count">(5)</label>
+								</li>
+								<li>
+									<input name="news" id="3" type="checkbox"><label for="3	">100 TL - 250 TL<span
+											class="count">(8)</label>
+								</li>
+							</ul>
+						</div>
+						<!--/ End Shop By Price -->
+
+						<!-- Shop Brand -->
+						<div class="single-widget range">
+							<h3 class="title">Markalar</h3>
+							<div class="brands">
+								<ul class="check-box-list">
+									<li>
+										<input name="news" id="4" type="checkbox"> <label for="4">Advance</label>
+									</li>
+									<li>
+										<input name="news" id="5" type="checkbox"><label for="5">Alice</label>
+									</li>
+									<li>
+										<input name="news" id="6" type="checkbox"><label for="6">Bravery</label>
+									</li>
+									<li>
+										<input name="news" id="7" type="checkbox"><label for="7">Cat Chow</label>
+									</li>
+									<li>
+										<input name="news" id="8" type="checkbox"><label for="8">Enjoy</label>
+									</li>
+									<li>
+										<input name="news" id="9" type="checkbox"><label for="9">Fitmin</label>
+									</li>
+									<li>
+										<input name="news" id="10" type="checkbox"><label for="10">Friskies</label>
+									</li>
+									<li>
+										<input name="news" id="11" type="checkbox"><label for="11">Happy Cat</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--/ End Shop Brand -->
+
+						<!-- Shop Weight -->
+						<div class="single-widget range">
+							<h3 class="title">Paket Ağırlığı</h3>
+
+							<ul class="check-box-list">
+								<li>
+									<input name="news" id="12" type="checkbox"><label for="12"> 3 Kg</label>
+								</li>
+								<li>
+									<input name="news" id="13" type="checkbox"><label for="13"> 5 Kg </label>
+								</li>
+								<li>
+									<input name="news" id="14" type="checkbox"><label for="14"> 10 Kg</label>
+								</li>
+								<li>
+									<input name="news" id="15" type="checkbox"><label for="15"> 15 Kg </label>
+								</li>
+							</ul>
+						</div>
+						<!--/ End Weight -->
+						<!-- Shop Button -->
+						<div class="single-widget">
+							<button class="btn btn-primary w-100 border-0">FİLTRE UYGULA</button>
+						</div>
+						<!--/ Shop Button -->
+					</div>
+				</div>
+				<!-- End Left Bar-->
+
+				<!--Products-->
+				<div class="col-lg-9 col-md-12 col-12">
+					<div class="row">
+						<div class="col-12">
+							<!-- Shop Top  -->
+							<div class="shop-top  d-none d-xl-block d-lg-block">
+								<div class="category-info">
+									<h3 class="title">Kedi Mamaları</h3>
+									<span>24 Adet Ürün Listeleniyor</span>
+								</div>
+								<div class="shop-shorter">
+									<div class="single-shorter">
+										<label>Sırala:</label>
+										<select>
+											<option selected="selected">Editörün Seçimi</option>
+											<option>Fiyata Göre Artan</option>
+											<option>Fiyata Göre Azalan</option>
+											<option>En Çok Değerlendirme</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<!--End Shop Top-->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food3.jpeg" alt="#">
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Advance French Bulldog Yetişkin
+													Köpek Maması 2,5 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="old">
+												<p>500,00 TL</p>
+											</div>
+											<div class="price">
+												<span>254,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food4.jpeg" alt="#">
+
+										<span class="new">Yeni</span>
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Purina Dog Chow Adult Tavuklu
+													Yetişkin Köpek Maması 14 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>254,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food5.jpeg" alt="#">
+
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Purina Dog Chow Adult Tavuklu
+													Yetişkin Köpek Maması 14 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>124,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food6.jpeg" alt="#">
+
+										<span class="price-dec">%30 İndirim</span>
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Proplan Elegant Derma Plus
+													Hairball Kedi Maması 3 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>168,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food7.jpeg" alt="#">
+
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Reflex Tavuklu Yetişkin Kuru Kedi
+													Maması 15 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>98,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food8.jpeg" alt="#">
+
+										<span class="out-of-stock">Çok Satan </span>
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Vancat Kuzu Etli Yetişkin Kedi
+													Maması 15 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>65,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food1.jpeg" alt="#">
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Hills Adult Large Breed Kuzu Etli
+													Büyük Irk Yetişkin Köpek Maması 14 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>147,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food3.jpeg" alt="#">
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Advance French Bulldog Yetişkin
+													Köpek Maması 2,5 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>35,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-6">
+							<div class="single-product">
+								<div class="product-img">
+									<a href="product-details.html">
+										<img class="default-img" src="images/food/food4.jpeg" alt="#">
+									</a>
+									<div class="button-head d-none d-xl-block d-lg-block">
+										<div class="product-action">
+
+											<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Beğenilenlere
+													Ekle</span></a>
+
+										</div>
+										<div class="product-action-2">
+											<a title="Add to cart" href="#"><i class="ti-shopping-cart"></i> Sepete
+												Ekle</a>
+										</div>
+									</div>
+								</div>
+								<div class="product-content">
+									<div class="row">
+										<div class="col-md-12 ratting-product">
+											<div class="ratting">
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star yellow fa fa-star"></i>
+												<i class="star fa fa-star"></i>
+												<span> (15)</span>
+											</div>
+										</div>
+										<div class="col-md-12 product-text">
+											<h3><a href="product-details.html">Advance French Bulldog Yetişkin
+													Köpek Maması 2,5 Kg</a></h3>
+										</div>
+										<div class="product-price">
+											<div class="price">
+												<span>54,00 TL</span>
+											</div>
+										</div>
+									</div>
+									<div class="add-cart d-block d-sm-block d-md-block d-lg-none">
+										<a class="btn-block">SEPETE EKLE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Pagination-->
+					<div class="pagination_rounded d-flex justify-content-center">
+						<ul>
+							<li> <a href="#" class="prev"> <i class="ti-angle-left" aria-hidden="true"></i> </a>
+							</li>
+							<li><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">...</a> </li>
+							<li><a href="#" class="next"><i class="ti-angle-right" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+					</div>
+					<!-- End Pagination-->
+				</div>
+				<!--End Products-->
+			</div>
+		</div>
+	</section>
+	<!--/ End Product Style  -->
+
+	<!-- Start Footer Area -->
+	<footer class="footer">
+		<!-- Footer Top -->
+		<div class="footer-top section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer about">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo2.png" alt="#"></a>
+							</div>
+							<p class="text">Canlarama olarak canlara ve canları candan öte canımcımlarımızı canı
+								gönülden canımızı verircesine canla besliyoruz.</p>
+							<p class="call">Sorunuz mu var? Bize ulaşın. <span><a href="tel:123456789">+0525 574 68
+										87</a></span></p>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-2 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer links">
+							<h4>Yardım</h4>
+							<ul>
+								<li><a href="#">Hakkımızda</a></li>
+								<li><a href="#">Sık Sorulan Sorular</a></li>
+								<li><a href="#">Bize Ulaşın</a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-2 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer links">
+							<h4>Kategoriler</h4>
+							<ul>
+								<li><a href="#">Kedi</a></li>
+								<li><a href="#">Köpek</a></li>
+								<li><a href="#">Kuş</a></li>
+								<li><a href="#">Akvaryum</a></li>
+								<li><a href="#">Kemirgen</a></li>
+								<li><a href="#">Sürüngen</a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- Single Widget -->
+						<div class="single-footer social">
+							<h4>İletişim</h4>
+							<!-- Single Widget -->
+							<div class="contact">
+								<ul>
+									<li>Cumhuriyet Mahallesi</li>
+									<li>Karanfil Sokak No:1/B</li>
+									<li>destek@canlaramama.com</li>
+									<li>+0324 354 78 87</li>
+								</ul>
+							</div>
+							<!-- End Single Widget -->
+							<ul>
+								<li><a href="#"><i class="ti-facebook"></i></a></li>
+								<li><a href="#"><i class="ti-twitter"></i></a></li>
+								<li><a href="#"><i class="ti-flickr"></i></a></li>
+								<li><a href="#"><i class="ti-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- End Single Widget -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Footer Top -->
+		<div class="copyright">
+			<div class="container">
+				<div class="inner">
+					<div class="row">
+						<div class="col-lg-6 col-12">
+							<div class="left">
+								<p>Copyright ©
+									<script>document.write(new Date().getFullYear())</script> <a
+										href="https://www.pencilpie.com/pie_web" target="_blank"> PencilPie
+										Development</a> - Tüm Hakları Saklıdır.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="right">
+								<img src="images/payments.png" alt="#">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /End Footer Area -->
+
+
+	<!-- Jquery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Color JS -->
+	<script src="js/colors.js"></script>
+	<!-- Slicknav JS -->
+	<script src="js/slicknav.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="js/owl-carousel.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="js/magnific-popup.js"></script>
+	<!-- Fancybox JS -->
+	<script src="js/facnybox.min.js"></script>
+	<!-- Waypoints JS -->
+	<script src="js/waypoints.min.js"></script>
+	<!-- Countdown JS -->
+	<script src="js/finalcountdown.min.js"></script>
+	<!-- Nice Select JS -->
+	<script src="js/nicesellect.js"></script>
+	<!-- Ytplayer JS -->
+	<script src="js/ytplayer.min.js"></script>
+	<!-- Flex Slider JS -->
+	<script src="js/flex-slider.js"></script>
+	<!-- ScrollUp JS -->
+	<script src="js/scrollup.js"></script>
+	<!-- Onepage Nav JS -->
+	<script src="js/onepage-nav.min.js"></script>
+	<!-- Easing JS -->
+	<script src="js/easing.js"></script>
+	<!-- Active JS -->
+	<script src="js/active.js"></script>
+
+
+	<!-- Navbar Mobile -->
+	<script src="js/navbar-mobile.js"></script>
+	<!-- Filter Category  -->
+	<script src="js/filter-category.js"></script>
+</body>
+
+</html>
