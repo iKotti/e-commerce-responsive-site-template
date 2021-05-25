@@ -1,6 +1,4 @@
-# e-commerce-responsive-site-template
-
-HTML Template by iKotti
+# E Commerce Responsive Site Template
 
 Github : https://github.com/iKotti <br>
 Linkedln : https://www.linkedin.com/in/ilker-yildiz/
